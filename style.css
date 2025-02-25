@@ -1,0 +1,59 @@
+.fa-solid.fa-house{
+    font-size: 24px;
+    color: rgb(0, 1, 2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease; 
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-solid.fa-house:hover {
+    transform: scale(1.1);
+    border: none;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 255, 0.3);
+}
+
+.fa-regular.fa-message {
+    font-size: 24px;
+    color: rgb(0, 1, 2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease; 
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-regular.fa-message:hover {
+    transform: scale(1.1);
+    border: none;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 255, 0.3);
+}
+
+.fa-solid.fa-magnifying-glass {
+    font-size: 24px;
+    color: rgb(0, 1, 2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease; 
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-solid.fa-magnifying-glass:hover {
+    transform: scale(1.1);
+    border: none;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 255, 0.3);
+}
+
+.fa-solid.fa-bell {
+    font-size: 24px;
+    color: rgb(0, 1, 2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease; 
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-solid.fa-bell:hover {
+    transform: scale(1.1);
+    border: none;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 255, 0.3);
+}
