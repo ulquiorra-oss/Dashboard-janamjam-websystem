@@ -5,13 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="middle.css">
+    <link rel="stylesheet" href="right.css">
+    <link rel="stylesheet" href="./W3.CSS Template_files/w3.css">
+    <link rel="stylesheet" href="./W3.CSS Template_files/w3-theme-blue-grey.css">
+    <link rel="stylesheet" href="./W3.CSS Template_files/css">
+    <link rel="stylesheet" href="./W3.CSS Template_files/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/c9690e58c1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <i class="fa-solid fa-house"></i>
-    <i class="fa-regular fa-message"></i>
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <i class="fa-solid fa-bell"></i>
+    <nav class="navigation">
+        <ul class="icons">
+            <li><i class="fa-solid fa-house"></i></li>
+            <li class="messages">
+                <a href="#"><i class="fa-regular fa-message"></i></a>
+                <span class="messaging">99+</span>
+            </li>
+            
+            <li class="notification">
+                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                <span class="howmany">5</span>
+            </li>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+
+        </ul>
+        
+        <a href="#" class="profilelink">
+            <img src="resources/images/1000058908.jpg" alt="profile pic" class="profile">
+        </a>
+        
+    </nav>
+
+    <aside class="sidebar">
+        <div class="profile-box">
+            <img src="resources/images/1000058908.jpg" alt="Profile Pic" class="profile1">
+            <p class="username">Jeeyan Janamjam</p>
+        </div>        
+        
+        <ul class="left-icon">
+            <li><a href="#"><i class="fa-solid fa-user-group"></i> Friends</a></li>
+            <li><a href="#"><i class="fa-solid fa-people-group"></i> Groups</a></li>
+            <li><a href="#"><i class="fa-regular fa-image"></i> Photos</a></li>
+            <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+            <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</a></li>
+        </ul>
+
+        <div class="event-container">
+            <h3>Recommended Events</h3>
+            <article class="event-card">
+                <img src="resources/images/are-you-studying-properly.jpg" alt="Event" class="event-image">
+                <p class="event-date">3/10/2025</p>
+                <i class="fa-regular fa-bookmark bookmark"></i>
+            </article>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <section class="create-post">
+            <h6 class="post-header">Feed</h6>
+            <textarea class="post-input" placeholder="What's on your mind?"></textarea>
+            <button class="post-button"><i class="fa fa-pencil"></i> Post</button>
+        </section>
+
+        <section class="post-card">
+            <header class="post-header">
+                <img src="resources/images/kirk.jpg" alt="Avatar" class="avatar">
+                <div class="post-info">
+                    <h4>Kirk Sinadjan</h4>
+                    <span class="post-time">1 min ago</span>
+                </div>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <div class="post-images">
+                <img src="resources/images/120823-cyclone-hmed.jpg" alt="Cyclone">
+                <img src="resources/images/1000058908.jpg" alt="Nature">
+            </div>
+            <footer class="post-actions">
+                <button class="like-button"><i class="fa fa-thumbs-up"></i> Like</button>
+                <button class="comment-button"><i class="fa fa-comment"></i> Comment</button>
+            </footer>
+        </section>
+
+        <section class="post-card">
+            <header class="post-header">
+                <img src="resources/images/orongan.jpg" alt="Avatar" class="avatar">
+                <div class="post-info">
+                    <h4>Christian Orongan</h4>
+                    <span class="post-time">16 min ago</span>
+                </div>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <footer class="post-actions">
+                <button class="like-button"><i class="fa fa-thumbs-up"></i> Like</button>
+                <button class="comment-button"><i class="fa fa-comment"></i> Comment</button>
+            </footer>
+        </section>
+
+        <section class="post-card">
+            <header class="post-header">
+                <img src="resources/images/IMG20240216193402.jpg" alt="Avatar" class="avatar">
+                <div class="post-info">
+                    <h4>Christian Licayan</h4>
+                    <span class="post-time">32 min ago</span>
+                </div>
+            </header>
+            <p>Have you seen this?</p>
+            <img src="resources/images/mobile-legends-heroes.jpg" alt="Nature" class="post-main-image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <footer class="post-actions">
+                <button class="like-button"><i class="fa fa-thumbs-up"></i> Like</button>
+                <button class="comment-button"><i class="fa fa-comment"></i> Comment</button>
+            </footer>
+        </section>
+    </main> 
     
+    <section class="friend-req">
+        <header class="request">Friend Request</header>
+
+        <figure class="request-profile">
+            <div class="request-container">
+                <img src="resources/images/kirk.jpg" alt="avatar">
+                <figcaption>Jane Doe</figcaption>
+            </div>
+        </figure>
+
+        <section class="request-action">
+            <button class="accept-button" title="Accept">
+                <i class="fa fa-check"></i>
+            </button>
+            <button class="decline-button" title="Decline">
+                <i class="fa fa-remove"></i>
+            </button>
+        </section>
+    </section>
+
+
 </body>
 </html>
